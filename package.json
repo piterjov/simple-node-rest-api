@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "express": "^4.17.1",
