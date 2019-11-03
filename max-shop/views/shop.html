@@ -7,6 +7,11 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
+        }
+
+        main {
+            padding: 1rem
         }
         .main-header {
             width: 100%;
@@ -24,7 +29,7 @@
 
         .main-header__item {
             padding: 0;
-            margin: 0
+            margin: 1rem
         }
 
         .main-header__item a{
@@ -37,13 +42,19 @@
             display: flex;
             align-items: center;
         }
+
+        .main-header__item a:hover,
+        .main-header__item a:active,
+        .main-header__item a.active {
+            color: #6200ff
+        }
     </style>
 </head>
 <body>
 <header class="main-header">
     <nav class="main-header__nav">
         <ul class="main-header__item-list class=main-header__item">
-            <li class="main-header__item"><a href="/">Shop</a></li>
+            <li class="main-header__item"><a class="active" href="/">Shop</a></li>
             <li class="main-header__item"><a href="/add-product">Add Product</a></li>
         </ul>
     </nav>
